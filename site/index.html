@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>grok-bot-open-skills</title>
+    <meta name="description" content="Procedimientos para un bot: buscar cada skill, leer el SKILL.md, copiarlo y probar el comparador en el navegador.">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <a class="skip" id="skip" href="#contenido"></a>
+    <header class="top">
+      <div class="bar">
+        <a class="wordmark" id="wordmark" href="#/">grok-bot-open-skills</a>
+        <form class="search" id="search-form" role="search">
+          <label id="search-label" for="q"></label>
+          <input id="q" name="q" type="search" autocomplete="off" enterkeyhint="search">
+        </form>
+        <div class="lang" id="lang" role="group">
+          <button type="button" id="lang-es">ES</button>
+          <button type="button" id="lang-en">EN</button>
+        </div>
+      </div>
+      <div class="bar status-bar">
+        <p id="status" role="status"></p>
+      </div>
+    </header>
+    <main id="contenido" class="wrap"></main>
+    <footer class="site-footer">
+      <div class="wrap" id="footer"></div>
+    </footer>
+    <noscript>
+      <p>Esta página necesita JavaScript para mostrar los procedimientos y correr el comparador. Los archivos están en la carpeta skills/ del repositorio.</p>
+      <p>This page needs JavaScript to show the procedures and run the comparator. The files are in the repository skills/ folder.</p>
+    </noscript>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

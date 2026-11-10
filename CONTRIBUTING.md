@@ -24,6 +24,10 @@ Additions are welcome as pull requests. Keep a skill generic. This repository is
 - Personal data, even "just as an example."
 - A claim that this pack is an official Cursor, xAI, or Grok product.
 
+## Site
+
+The catalog reads `skills/*/SKILL.md`. A new folder is listed on the next build. `npm test` checks that the folder name matches the frontmatter `name`, that `README.md` names the folder, and that the browser checks still match the example files.
+
 ## License
 
 By opening a pull request you agree that your contribution is under the MIT license in `LICENSE` (Copyright (c) 2026 Edgar Flores). Dataset files do not belong in this repo. A skill may tell the user to record a publisher's license; that license stays the publisher's.
