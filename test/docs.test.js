@@ -33,6 +33,13 @@ test('Pages deploys from Actions on main', () => {
   }
 })
 
+test('CI lints and tests pull requests', () => {
+  const ci = readFileSync(new URL('../.github/workflows/ci.yml', import.meta.url), 'utf8')
+  for (const piece of ['pull_request:', 'npm ci', 'npm run lint', 'npm test', 'node-version: 22']) {
+    assert.ok(ci.includes(piece), piece)
+  }
+})
+
 test('the README does not frame the pack as fintech', () => {
   for (const word of ['fintech', 'BNPL', 'buy now pay later']) {
     assert.equal(readme.toLowerCase().includes(word), false, word)

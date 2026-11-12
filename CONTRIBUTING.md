@@ -12,9 +12,21 @@ Additions are welcome as pull requests. Keep a skill generic. This repository is
 
 ## Examples
 
-- Put samples in `examples/`.
+- Put shared samples in `examples/`.
 - Mark them synthetic in the first lines.
-- Use fictional employers and a nameless candidate. No real names, emails, phones, addresses, CURP, RFC, or client names.
+- Use fictional employers and a nameless candidate. No real names, emails, phones, addresses, CURP, RFC, real salary figures, or client names.
+
+## Skill README
+
+Every skill folder has a `README.md` for people. `SKILL.md` is the procedure the bot follows. Use these headings, in this order:
+
+1. Who it is for
+2. How to use it
+3. Example
+4. What it does not do
+5. License
+
+The example is fictional. Do not put a real person, employer, pay figure, address, or client file in it.
 
 ## What not to add
 

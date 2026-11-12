@@ -13,7 +13,7 @@ Match the posting with evidence the user already has. A tailored CV is a reorder
 
 Pair with `skills/remote-job-hunt-mx/SKILL.md` when they also want a score and a cover note. This skill does not decide whether they should apply, and it does not submit anything.
 
-`examples/synthetic-posting.md` shows the output shape on fictional input. Do not copy those bullets onto a real person.
+`examples/synthetic-posting.md` shows the output shape on fictional input. `README.md` in this folder is the same example, written for a person. Do not copy those bullets onto a real person.
 
 ## Hard stops
 

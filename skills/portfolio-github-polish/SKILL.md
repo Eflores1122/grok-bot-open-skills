@@ -12,6 +12,8 @@ Make the public profile understandable. Do not make it louder.
 
 This skill does not search jobs. For postings and applications, use `skills/remote-job-hunt-mx/SKILL.md`. For CV bullets, use `skills/ats-cv-tailor/SKILL.md`.
 
+`README.md` in this folder shows the outline on a fictional repository. Do not invent stars, users, or a phone number for a real profile.
+
 ## Hard stops
 
 - Do not invent stars, forks, downloads, users, or "used by" logos.

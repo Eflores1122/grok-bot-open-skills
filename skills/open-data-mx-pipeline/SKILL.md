@@ -13,6 +13,8 @@ One public dataset, one question, one table or chart. The code in the user's rep
 
 This skill is not a job-search skill. Do not mix it into CV or outreach drafts.
 
+`README.md` in this folder shows a fictional source block. It is not a citation, and it does not contain a real statistic.
+
 ## Hard stops
 
 - Public, documented downloads only. No logins, no captcha bypass, no HTML scraping when the publisher offers a bulk file or a documented API.
