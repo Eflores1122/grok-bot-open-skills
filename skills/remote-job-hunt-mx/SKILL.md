@@ -13,6 +13,8 @@ Search and draft. The user applies. One posting at a time unless they asked for 
 
 For CV bullets, follow `skills/ats-cv-tailor/SKILL.md` after this skill has scored the posting. Do not invent experience while scoring.
 
+`README.md` in this folder is a fictional score for people. The inputs are `examples/synthetic-posting.md` and `examples/synthetic-constraints.md`. Do not treat that pay line as a real offer.
+
 ## Hard stops
 
 1. Public pages only. Do not scrape sites that require login, bypass access controls, or collect private profiles, emails, or phone numbers. Do not build or use a contact list.
